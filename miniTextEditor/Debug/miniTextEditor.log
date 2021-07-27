@@ -1,0 +1,13 @@
+﻿  start.cpp
+E:\level2\miniTextEditor - Copy\miniTextEditor\textEdit.h(1694,20): warning C4018: '<': signed/unsigned mismatch
+E:\level2\miniTextEditor - Copy\miniTextEditor\textEdit.h(1701,21): warning C4018: '<': signed/unsigned mismatch
+E:\level2\miniTextEditor - Copy\miniTextEditor\textEdit.h(1742,21): warning C4018: '<': signed/unsigned mismatch
+E:\level2\miniTextEditor - Copy\miniTextEditor\textEdit.h(1744,22): warning C4018: '<': signed/unsigned mismatch
+  textEdit.cpp
+E:\level2\miniTextEditor - Copy\miniTextEditor\textEdit.h(1694,20): warning C4018: '<': signed/unsigned mismatch
+E:\level2\miniTextEditor - Copy\miniTextEditor\textEdit.h(1701,21): warning C4018: '<': signed/unsigned mismatch
+E:\level2\miniTextEditor - Copy\miniTextEditor\textEdit.h(1742,21): warning C4018: '<': signed/unsigned mismatch
+E:\level2\miniTextEditor - Copy\miniTextEditor\textEdit.h(1744,22): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  ArrList.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  miniTextEditor.vcxproj -> E:\level2\miniTextEditor - Copy\Debug\miniTextEditor.exe

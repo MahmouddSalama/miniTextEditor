@@ -1,0 +1,55 @@
+  miniTextEditor.fileNameForm.resources - Embedded, ContainedInManifestFile, 
+  miniTextEditor.Functions.resources - Embedded, ContainedInManifestFile, 
+  miniTextEditor.start.resources - Embedded, ContainedInManifestFile, 
+  miniTextEditor.textEdit.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly miniTextEditor, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class miniTextEditor.fileNameForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String filename1 : Public, Static
+    System.String filename2 : Public, Static
+  Methods:
+    getname(): PrivateScope, Public, HideBySig
+Class miniTextEditor.Functions: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.TextBox lapelShow : Public
+  Methods:
+    getinsertp(): PrivateScope, Public, HideBySig
+    getShowp(): PrivateScope, Public, HideBySig
+    getaddp(): PrivateScope, Public, HideBySig
+    getdeleatp(): PrivateScope, Public, HideBySig
+    getupdatep(): PrivateScope, Public, HideBySig
+    getlinep(): PrivateScope, Public, HideBySig
+    getfindallp(): PrivateScope, Public, HideBySig
+    getfindandreplasep(): PrivateScope, Public, HideBySig
+Class miniTextEditor.textEdit: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String filename : Public
+    System.String pathfile : Public
+    System.String filetext : Public
+    Boolean isOpen : Public
+    System.Windows.Forms.TextBox lapelShow : Public
+  Methods:
+    toStandardString(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*, String): PrivateScope, Public, Static, HideBySig
+Class miniTextEditor.start: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
