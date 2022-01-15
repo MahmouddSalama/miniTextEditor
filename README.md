@@ -8,10 +8,9 @@ This project can manage the text by
 * Create new file 
 * Open exist file 
 * Save & delete file 
-* Add Line in special index 
-* Remove line 
+* Add & Remove Line in special index  
 * Search about line and word
 # 
-In this project using the vector (  we build it )
+In this project using the ArrList Data structure
  
 
